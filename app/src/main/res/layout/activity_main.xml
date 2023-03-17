@@ -27,7 +27,7 @@
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/GoGoApp"
+        app:srcCompat="@drawable/gogo"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="124dp" />
 
@@ -36,7 +36,7 @@
         android:layout_width="200sp"
         android:layout_height="wrap_content"
         android:text="Customer"
-        android:background="@color/vividBlue"
+        android:background="@drawable/rounded_rectangle"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
@@ -46,7 +46,7 @@
         android:id="@+id/button"
         android:layout_width="200sp"
         android:layout_height="wrap_content"
-        android:background="@color/vividBlue"
+        android:background="@drawable/rounded_rectangle"
         android:text="Service Provider"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.497"
