@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/NavWallet"
+        android:icon="@drawable/wallet_nav"
+        android:title="Wallet" />
+
+    <item
+        android:id="@+id/NavMessage"
+        android:icon="@drawable/nav_message"
+        android:title="Message" />
+
+    <item
+        android:id="@+id/NavHome"
+        android:icon="@drawable/nav_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/NavTodo"
+        android:icon="@drawable/nav_note"
+        android:title="ToDo" />
+
+    <item
+        android:id="@+id/NavUser"
+        android:icon="@drawable/nav_user"
+        android:title="Account" />
+
+</menu>

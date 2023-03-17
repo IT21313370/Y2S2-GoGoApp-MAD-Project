@@ -27,7 +27,7 @@
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/GoGoApp"
+        app:srcCompat="@drawable/gogo_app"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="124dp" />
 
