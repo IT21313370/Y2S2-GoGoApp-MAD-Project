@@ -6,13 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="531dp"
+        android:layout_height="304dp"
+        app:srcCompat="@drawable/triangle1"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-77dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="417dp"
+        android:layout_height="423dp"
+        app:srcCompat="@drawable/triangle2"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/GoGoApp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="124dp" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Customer"
+        android:background="@color/vividBlue"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:background="@color/vividBlue"
+        android:text="Service Provider"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        tools:layout_editor_absoluteY="396dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
